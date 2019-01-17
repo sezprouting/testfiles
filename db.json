@@ -12,7 +12,7 @@
         "Field": "followuprequired",
         "ContentId": "123",
         "FieldType": "Edm_Boolean",
-        "Value": true
+        "Value": True
     }
   ],
   "profile": {
