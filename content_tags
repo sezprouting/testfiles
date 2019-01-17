@@ -1,0 +1,23 @@
+{
+  "posts": [
+    [
+    {
+        "Namespace": "csm",
+        "Field": "accountarea",
+        "ContentId": "123",
+        "FieldType": "Edm_String",
+        "Value": "99"
+    },
+    {
+        "Namespace": "csm",
+        "Field": "followuprequired",
+        "ContentId": "123",
+        "FieldType": "Edm_Boolean",
+        "Value": true
+    }
+]
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
