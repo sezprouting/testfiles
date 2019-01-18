@@ -32,7 +32,7 @@
     "Field": "int64",
     "ContentId": "123",
     "FieldType": "Edm_Int64",
-    "Value": 9223372036854773000
+    "Value": 9223372036700000001
 },
 {
     "Namespace": "testYellow",
