@@ -1,11 +1,11 @@
 {
   "posts": [
 {
-    "Namespace": "testRed",
-    "Field": "datetimeoffest",
+    "Namespace": "testBlue",
+    "Field": "boolean",
     "ContentId": "123",
-    "FieldType": "Edm_DateTimeOffset",
-    "Value": "2018-12-11T00:00:29+13:00"
+    "FieldType": "Edm_Boolean",
+    "Value": true
 }
   ],
   "profile": {
