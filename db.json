@@ -1,52 +1,11 @@
 {
   "posts": [
-    {
-    "Namespace": "testBlue",
-    "Field": "string",
-    "ContentId": "123",
-    "FieldType": "Edm_String",
-    "Value": "67"
-},
 {
     "Namespace": "testBlue",
     "Field": "boolean",
     "ContentId": "123",
     "FieldType": "Edm_Boolean",
     "Value": true
-}, {
-    "Namespace": "testBlue",
-    "Field": "int32",
-    "ContentId": "123",
-    "FieldType": "Edm_Int32",
-    "Value": 500000
-},
-{
-    "Namespace": "testBlue",
-    "Field": "double",
-    "ContentId": "123",
-    "FieldType": "Edm_Double",
-    "Value": 45632.76
-},
-{
-    "Namespace": "testBlue",
-    "Field": "int64",
-    "ContentId": "123",
-    "FieldType": "Edm_Int64",
-    "Value": 9223372036700000001
-},
-{
-    "Namespace": "testYellow",
-    "Field": "collection-string",
-    "ContentId": "123",
-    "FieldType": "Collection(Edm_String)",
-    "Value": ["office", "sharepoint", "learnergraph"]
-},
-{
-    "Namespace": "testRed",
-    "Field": "datetimeoffest",
-    "ContentId": "123",
-    "FieldType": "Edm_DateTimeOffset",
-    "Value": "2018-12-11T00:00:29+13:00"
 }
   ],
   "profile": {
