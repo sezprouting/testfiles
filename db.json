@@ -1,11 +1,11 @@
 {
   "posts": [
 {
-    "Namespace": "testBlue",
-    "Field": "double",
+    "Namespace": "testYellow",
+    "Field": "collection-string",
     "ContentId": "123",
-    "FieldType": "Edm_Double",
-    "Value": 45632.76
+    "FieldType": "Collection(Edm_String)",
+    "Value": ["office", "sharepoint", "learnergraph"]
 }
   ],
   "profile": {
