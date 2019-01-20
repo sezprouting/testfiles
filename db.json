@@ -2,10 +2,10 @@
   "posts": [
 {
     "Namespace": "testBlue",
-    "Field": "string",
+    "Field": "int32",
     "ContentId": "123",
-    "FieldType": "Edm_String",
-    "Value": "67"
+    "FieldType": "Edm_Int32",
+    "Value": 500000
 }
   ],
   "profile": {
