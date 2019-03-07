@@ -39,7 +39,7 @@ namespace GitHubFunctionApp.Services
             return Task.FromResult(jwt);
         }
 
-        public async Task<string> GetTokenForInstallationAsync(int installationId)
+        public static async Task<string> GetTokenForInstallationAsync(long installationId)
         {
             string appToken = await GetTokenForApplicationAsync();
             using (var client = new HttpClient())
