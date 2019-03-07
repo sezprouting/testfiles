@@ -14,7 +14,7 @@ using Microsoft.Azure.WebJobs.Host;
 using Octokit;
 using Octokit.Internal;
 
-namespace GitHubFunctionApp
+namespace GitHubFunctionApp.Triggers
 {
     public static class GithubHttpTrigger
     {
