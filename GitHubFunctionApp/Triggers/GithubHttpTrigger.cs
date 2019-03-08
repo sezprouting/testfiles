@@ -32,19 +32,6 @@ namespace GitHubFunctionApp.Triggers
             var serializer = new SimpleJsonSerializer();
             ActivityPayload payload = serializer.Deserialize<ActivityPayload>(json);
 
-            IGitHubClient client = await GitHubClientService.GetClient(payload.Installation.Id);
-            var collaboratorClient = client.Repository.Collaborator;
-            try
-            {
-                var collaborators = await collaboratorClient.GetAll(payload.Repository.Id);
-                log.Info($"Collaborators on this repository are:\n{serializer.Serialize(collaborators)}");
-            }
-            catch (Exception e)
-            {
-                log.Error("Could not fetch collaborators:\n" +  e);
-            }
-
-
             return req.CreateResponse(HttpStatusCode.NoContent);
         }
     }
