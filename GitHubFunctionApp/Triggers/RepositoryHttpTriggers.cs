@@ -1,6 +1,6 @@
 ﻿// -----------------------------------------------------------------------
 //
-//      Crated by Sez Flynn 2019
+//      Created by Sez Flynn 2019
 //      https://github.com/sezprouting/GithubApp-POC
 //
 //
